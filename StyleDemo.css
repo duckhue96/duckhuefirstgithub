@@ -1,0 +1,94 @@
+/* reset margin and padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.banner {
+    height: 500px;
+    background: url(./banner.jpg) center center no-repeat;
+    padding: 20px;
+}
+
+.sign-in-about {
+    height: 50px;
+    width: 100%;
+    text-align: right;
+}
+
+.about,
+.signin {
+    margin-top: 20px;
+    /*khoảng cách giữa 2 class about và signin */
+    padding: 7px 15px;
+    /* Bỏ dấu gạch dưới about, signin */
+    text-decoration: none;
+    display: inline block;
+    /*chữ của 2 class đều in hoa*/
+    text-transform: uppercase;
+
+}
+
+.signin {
+    /*khoảng cách giữa class sigin với lề phải*/
+    margin-right: 60px;
+    /* khoảng cách giữa class signin với class about*/
+    margin-left: 25px;
+    /*tạo khung ô van bo góc*/
+    border-radius: 20px;
+    /*tạo khung màu xanh*/
+    border: 1px solid green;
+}
+
+.logo {
+    background: url(./Logo\ 2.jpg) center center no-repeat;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text {
+    text-align: center;
+}
+
+.btn-star-now {
+    text-align: center;
+}
+
+.btn-star-now button {
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid green;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.left,
+.right,
+.center {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+span {
+    display: block;
+    font-size: 20px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
